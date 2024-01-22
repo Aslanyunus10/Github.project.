@@ -3,7 +3,7 @@ question_1 = input("Where is the capital city of England?")
 score = 0
 
 if int(question_1) == 'London':
-    score = score + 10
+    score = score + 20
     print("Awesome! Your answer is true.")
 
 else:
@@ -59,8 +59,37 @@ else:
 
 print("Your score is -->", score)
 
+ question_6 = input("According to 2023 data,what is the population in the USA?")
 
-if score >= 40:
+A)331.000.000
+B)321.000.000
+C)341.000.000
+D)311.000.000
+
+if int(question_6) == 'A':
+    score = score + 30
+    print("Awesome! Your answer is true.")
+
+else:
+    print("Unfortunately :( Your answer is wrong.")
+
+question_7 = input("Which is the 5th country that managed to land a vehicle on the moon recently?")
+
+A)'Gemany'
+B)'Japan'
+C)'South Korea'
+D)'France'
+
+if int(question_7) == 'B':
+    score = score + 50
+    print("Awesome! Your answer is true.")
+
+else:
+    print("Unfortunately :( Your answer is wrong.")
+  
+
+
+if score >= 100:
     print("Congratulations!,you did it:))))")
 else:
     print("Sorry,please try again...")
