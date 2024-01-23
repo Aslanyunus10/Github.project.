@@ -6,3 +6,4 @@
 5)I prepared the questions with open-ended and test logic
 6)I designated high score questions as difficulty questions
 7)If person won't get a highly points,this means this person is not knowledge.
+8)And the last part is I asked to ChatGPT for my some basic fault and I fixed
