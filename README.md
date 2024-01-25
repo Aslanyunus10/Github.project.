@@ -6,4 +6,6 @@
 5. I prepared the questions with open-ended and test logic
 6. I designated high score questions as difficulty questions
 7. If person won't get a highly points,this means this person is not knowledge.
-8. And the last part is I asked to ChatGPT for my some basic fault and I fixed
+8. And the last part is I asked to ChatGPT for my some basic fault and I fixed.
+‼️‼️‼️
+As the last step,after talking with teacher Piotr,I shortened my project and here I am with a project that looks more pleasing to the eye and does not tire the eyes:)))))
