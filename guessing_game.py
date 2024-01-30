@@ -1,11 +1,12 @@
 def success():
+def success():
     print("EXCELLENT! Your knowledge is at a very high level.")
 
 def failure():
     print("BE CAREFUL!!!  Your answer is wrong")
 
-Open_questions_with_answer =  [
-{
+Open_questions_with_answer = [
+    {
         "question": "What is the capital city of England?",
         "answer": "London",
         "points": 20,
@@ -35,11 +36,19 @@ Open_questions_with_answer =  [
         "answer": "Lee Harwey Oswald",
         "points": 100,
     }
-                              ]
+                             ]
 
 
+def play_quiz(questions):
+    points = 0
+    for question_data in questions:
+        user_answer = input(f"{question_data['question']} ")
+        if user_answer.lower() == question_data['answer'].lower():
+            points += question_data['points']
+    print(f"Your total score is {points}")
 
-quiz_questions = [
+
+play_quiz = [
     {
         "questions": "According to 2023 data, what is the population in the USA?\n",
         "options": "A) 331,000,000\n"
@@ -78,12 +87,25 @@ quiz_questions = [
 
     }
                  ]
-if score >= 350:
+total_points = 0
+
+for question in play_quiz:
+    print(question["questions"])
+    print(question["options"])
+
+    user_answer = input("Your answer (A/B/C/D): ").upper()
+
+    if user_answer == question["answer"]:
+        total_points += question["points"]
+
+print("Total score is -->",total_points)
+
+if total_points >= 80:
     print("Congratulations!, you did it:))))")
 else:
     print("Sorry, your knowledge is not enough, please try again...")
 
-print("Total score is -->", score)
+print("Total point is -->", total_points)
 
 
 
